@@ -185,6 +185,17 @@ const struct Tileset gTileset_Building =
     .callback = InitTilesetAnim_Building,
 };
 
+const struct Tileset gTileset_GeneralResu =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_GeneralResu,
+    .palettes = gTilesetPalettes_GeneralResu,
+    .metatiles = gMetatiles_GeneralResu,
+    .metatileAttributes = gMetatileAttributes_GeneralResu,
+    .callback = InitTilesetAnim_GeneralResu,
+};
+
 const struct Tileset gTileset_Shop =
 {
     .isCompressed = TRUE,
